@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Travlr Getaways",
   "author": "Kathryn McNeil",
-  "private": true, 
+  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -13,6 +13,7 @@
     "express": "~4.16.1",
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
+    "mongoose": "^6.7.2",
     "morgan": "~1.9.1"
   }
 }
