@@ -5,15 +5,12 @@ const dbURI = `mongodb://${host}/travlr`;
 const readLine = require('readline');
 
 mongoose.set('useUnifiedTopology', true);
-console.log("here")
 console.log(dbURI);
 
 //`mongodb://${host}:27017/travlr` was where dburi is
-console.log("connect fool");
 const connect = () => {
   setTimeout(() => mongoose.connect(dbURI, { useNewUrlParser: true, useCreateIndex: true }), 1000);
 }
-console.log("connected?");
 
 mongoose.connection.on('connected', () => {
   console.log(`Mongoose connected to ${dbURI}`);
@@ -25,7 +22,6 @@ mongoose.connection.on('disconnected', () => {
   console.log('Mongoose disconnected');
 });
 
-console.log("hullo");
 //const readLine = require ('readline');
 if (process.platform === 'win32'){
   const rl = readLine.createInterface ({
@@ -64,5 +60,4 @@ process.on('SIGTERM', () => {
 });
 
 connect();
-console.log("hmm");
 require('./travlr');
