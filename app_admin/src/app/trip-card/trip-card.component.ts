@@ -10,13 +10,15 @@ import { Trip } from '../models/trip';
 export class TripCardComponent implements OnInit {
 
   @Input('trip') trip: Trip;
+  //@Input('trip') trip: any;
 
   constructor(
     private router: Router
   ) { }
 
+  
   ngOnInit(): void {
-  }
+   }
 
   private editTrip(trip: Trip): void {
     console.log('Inside TripListingComponentTrip');

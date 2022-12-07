@@ -18,7 +18,7 @@ export class TripListingComponent implements OnInit {
   message: string;
   
   constructor(
-    private tripDataService: TripDataService,
+    private tripDataService: TripDataService, 
     private router: Router
   ) { }
   
@@ -33,13 +33,15 @@ export class TripListingComponent implements OnInit {
     this.tripDataService
       .getTrips()
         .then(foundTrips=> {
-          this.message = 'Searching for trips';
+          //this.message = 'Searching for trips';
+          //this.trips = foundTrips;
+          this.message = foundTrips.length > 0 ? '' : 'No trips found';
           this.trips = foundTrips;
         });
   }
 
   ngOnInit(): void {
     this.getTrips();
-    this.addTrip();
+    //this.addTrip();
   }
 }

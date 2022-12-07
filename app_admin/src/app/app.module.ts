@@ -22,7 +22,7 @@ import { EditTripComponent } from './edit-trip/edit-trip.component';
   imports: [
     BrowserModule,
     HttpModule,
-    //FormsModule,
+    FormsModule,
     ReactiveFormsModule,
     AppRoutingModule
   ],
