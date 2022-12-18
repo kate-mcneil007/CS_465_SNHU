@@ -22,3 +22,9 @@ The most commonly used endpoints in this system were GET and POST. I tested with
 Reflection
 
 This course has been immensely helpful to me as I am interested in creating websites and applications. I always thought I was interested in back-end work, so I enjoyed working on full stack development and experiencing front end development. I also thought it was helpful to learn about how the front-end and back-end interact, as well as the way data flows throughout it. This course helped to teach me about using JSON, HTML, JavaScript, Angular, and Express. These are all things I have not had a lot of experience with so I enjoyed learning more about them. I also enjoyed working with MongoDB as it helped better my understanding of it. I also learned and worked with great tools like PostMan which helped with testing. I was able to practice what trouble shooting is like in a real-world situation which I also felt helped me feel more prepared for my future career.  
+
+Resources:
+
+JavaScript. (2022, December 15). In Wikipedia. https://en.wikipedia.org/w/index.php?title=JavaScript&oldid=1127505758
+
+JSON. (2022, December 15). In Wikipedia. https://en.wikipedia.org/w/index.php?title=JSON&oldid=1127646457#Uses
