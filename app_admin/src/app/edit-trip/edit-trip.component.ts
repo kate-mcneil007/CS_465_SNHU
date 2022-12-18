@@ -63,6 +63,11 @@ export class EditTripComponent implements OnInit {
           this.router.navigate(['']);
         });
     }
+    else {
+      console.log("invalid form @ add-trip.component.ts")
+      console.log("this: ")
+      //console.log(this.editForm)
+    }
   }
 }
   
